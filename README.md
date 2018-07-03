@@ -11,4 +11,5 @@ Then follow the instructions in the README to install the GEOS library.
 
 You will also need to have: `numpy`, `matplotlib`, `pyproj`
 
-
+__IMPORTANT NOTE:__ When specifying the coordinates of an observatory 
+in the dictionary you specify them backwards. i.e (long, lat) NOT (lat, long).
